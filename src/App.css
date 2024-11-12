@@ -1,0 +1,107 @@
+/* Overall body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  /* Container for the app content */
+  .container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  /* Input and Button Styling */
+  .input-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    color:rgba(0, 0, 0, 0.781);
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #3498db;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Error Message Styling */
+  .error {
+    color: #e74c3c;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Palette Container */
+  .palette-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  /* Color Card Styling */
+  .color-card {
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .color-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Color Box */
+  .color-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px;
+   
+  }  
